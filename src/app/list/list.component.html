@@ -1,0 +1,105 @@
+<!-- Header section  -->
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a>Angular task by SURENDRA</a></li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li routerLinkActive="active"><a [routerLink]="['/list']">List</a></li>
+          <li routerLinkActive="active"><a [routerLink]="['/feedback']">Feedback</a></li>
+          <li routerLinkActive="active"><a [routerLink]="['/login']">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- Header section End -->
+
+<!-- Left side section -->
+    <div class="column">
+      <div class="col-lg-12">
+        <div class="col-form-label">
+          <legend class="m-b-12">Dropdown filter</legend>
+        </div>
+      </div>
+
+    <form [formGroup]="dataform">
+
+        <section class="form-group col-md-6">
+          <label class="col-form-label">Select Brand</label>
+          <select id="brandList" class="form-control" formControlName="Brand" (change)="onSelectBrand($event.target.value)">
+              <option *ngFor="let b of SampleData " value="{{b.BrandName}}">{{b.BrandName }} </option>
+          </select>
+        </section>
+
+        <section class="form-group col-md-6">
+          <label class="col-form-label">Select Product Type</label>
+          <select  (change)="onSelectproduct($event.target.value)" 
+           class="form-control" formControlName="Product" id="Product">
+              <option *ngFor="let p of products" value="{{p.ProductType}}">{{p.ProductType }} </option>     
+          </select>
+        </section> 
+    
+      </form>
+    
+    <div class="col-lg-12">
+       <div class="col-form-label">
+         <legend class="m-b-12">ChechBox Filter</legend>
+       </div>
+    </div>
+
+
+  
+    <section  class="form-group col-md-8">
+      <label class="col-form-label">Product type</label>
+          <div class="checkbox"  *ngFor="let cd of chechData | unique" >
+            <label> <input #reference type="checkbox"  (change)="onCheck($event.target.id, $event.target.checked)" 
+                      id="{{cd}}">{{cd}}</label>
+          </div>
+    </section>
+  
+
+    </div>
+
+
+<!--Right side section -->
+<div class="column" >
+  <div class="col-lg-12">
+        
+      <div class="col-form-label">
+          <legend class="m-b-12">Filtered result</legend>
+      </div>
+  
+<!-- branch list -->
+      <div class="col-xs-12 col-sm-6 col-md-6" *ngFor="let c of ProModals">
+         <nav class="navbar navbar-default">
+           <div class="container-fluid">
+             <div class="list-group">
+                <p>Product Type : <strong> {{c.ProductType}}</strong> </p>
+                <p>Product Model Number : <strong>{{c.ModelNumber}}</strong> </p>
+                <p>Model Name: <strong> {{c.ModelName}}</strong></p>
+                <br>
+              </div>
+           </div>
+        </nav>
+      </div>
+
+     
+      <div class=" col-md-4" *ngFor="let cb of checkBox">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+             <div class="list-group">
+                <p>Product: <strong> {{cb.ProductType}}</strong> </p>
+                <p>Product: <strong> {{cb.ModelNumber}}</strong> </p>
+                <p>Product: <strong> {{cb.ModelName}}</strong> </p>
+             </div>
+          </div>
+        </nav>
+      </div>
+    
+   </div>
+</div>

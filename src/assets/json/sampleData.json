@@ -1,0 +1,250 @@
+[
+
+  {
+    "BrandName" : "LG",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "LGTV001",
+        "ModelName" : "LGultraslim1"
+      },
+      
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "LGTV002",
+        "ModelName" : "LGultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "LGF001",
+        "ModelName" : "LG1doubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "LGF002",
+        "ModelName" : "LGdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "LGM001",
+        "ModelName" : "LGsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "LGM002",
+        "ModelName" : "LGsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "SAMSUNG",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "SMNG001",
+        "ModelName" : "SMNGultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "SMNG002",
+        "ModelName" : "SMNGultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "SMNG001",
+        "ModelName" : "SMNGdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "SMNG002",
+        "ModelName" : "SMNGdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "SMNG001",
+        "ModelName" : "SMNGsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "SMNG002",
+        "ModelName" : "SMNGsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "SONY",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "SONY001",
+        "ModelName" : "SONYultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "SONY002",
+        "ModelName" : "SONYultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "SONY001",
+        "ModelName" : "SONYdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "SONY002",
+        "ModelName" : "SONYdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "SONY001",
+        "ModelName" : "SONYsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "SONY002",
+        "ModelName" : "SONYsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "HAIER",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "HAIER001",
+        "ModelName" : "HAIERultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "HAIER002",
+        "ModelName" : "HAIERultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "HAIER001",
+        "ModelName" : "HAIERdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "HAIER002",
+        "ModelName" : "HAIERdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "HAIER001",
+        "ModelName" : "HAIERsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "HAIER002",
+        "ModelName" : "HAIERsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "PANASONIC",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "PANASONICO001",
+        "ModelName" : "PANASONICultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "PANASONIC002",
+        "ModelName" : "PANASONICultraslim2"
+      
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "HAIER001",
+        "ModelName" : "HAIERdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "PANASONIC002",
+        "ModelName" : "PANASONICdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "PANASONIC001",
+        "ModelName" : "PANASONICsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "PANASONIC002",
+        "ModelName" : "PANASONICsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "TOSHIBA",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "TOSHIBAO001",
+        "ModelName" : "TOSHIBAultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "TOSHIBA002",
+        "ModelName" : "TOSHIBAultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "TOSHIBA001",
+        "ModelName" : "TOSHIBAdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "TOSHIBA002",
+        "ModelName" : "TOSHIBAdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "TOSHIBA001",
+        "ModelName" : "TOSHIBAsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "TOSHIBA002",
+        "ModelName" : "TOSHIBAsmartmobile2"
+      }
+      ]
+  },
+  {
+    "BrandName" : "MI",
+    "BrandProducts" : [
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "MIO001",
+        "ModelName" : "MIultraslim1"
+      },
+      {
+        "ProductType" : "TV",
+        "ModelNumber" : "MI002",
+        "ModelName" : "MIultraslim2"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "MI001",
+        "ModelName" : "MIdoubledoor1"
+      },
+    {
+        "ProductType" : "Fridge",
+        "ModelNumber" : "MI002",
+        "ModelName" : "MIdoubledoor2"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "MI001",
+        "ModelName" : "MIsmartmobile1"
+      },
+    {
+        "ProductType" : "Mobile",
+        "ModelNumber" : "MI002",
+        "ModelName" : "MIsmartmobile2"
+      }
+      ]
+  }
+    ]

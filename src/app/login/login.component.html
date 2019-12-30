@@ -1,0 +1,82 @@
+
+ <header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a>Angular task by <strong>SURENDRA</strong></a></li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li routerLinkActive="active"><a [routerLink]="['/login']">Login</a></li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="col-lg-12">
+  <div class="col-form-label">
+    <legend class="m-b-8">Login</legend>
+  </div>
+
+  <div class="container">    
+
+    <div style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">  
+
+        <div class="panel panel-info" >
+                <div class="panel-heading">
+                    <div class="panel-title">Sign In</div>
+                   
+                </div>  
+                 
+                <div style="padding-top:15px" class="panel-body" >
+
+                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                        
+                    <form [formGroup]="loginFrm" class="form-horizontal" role="form">
+                      <!-- <span>Username:Admin || Password:Admin</span> -->
+                        <div style="margin-bottom: 20px" class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input formControlName="userID" id="login-username" type="text" class="form-control" name="username" value="" placeholder="Username">    
+                                    <span class="has-error" *ngIf="!loginFrm.controls.userID.valid && loginFrm.controls.userID.touched">Please enter Username</span>
+
+                        </div>
+                        
+                        <div style="margin-bottom:40px" class="input-group">
+    
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input  formControlName="pass" id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                    <span class="has-error" *ngIf="!loginFrm.controls.pass.valid && loginFrm.controls.pass.touched">Please enter password</span>
+                                    
+
+                                </div>
+
+                            <div style="margin-top:10px" class="form-group">
+                              
+                             
+                                
+                                <div class="col-sm-12 controls">
+                               
+                                
+                                  <button type="submit" (click)="validate()" class="btn btn-success">Login</button>
+                                
+
+                                </div>
+                            </div>
+                        </form>     
+                    </div>                     
+                </div>  
+    </div>
+</div> 
+</div>
+
+<div class="container-fluid">
+  <p>username:<strong>admin</strong></p>
+  <p>password:<strong>admin</strong></p>
+</div>
+
+   
+
+
